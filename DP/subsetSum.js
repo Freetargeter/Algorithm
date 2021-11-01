@@ -24,7 +24,7 @@
 
 
 
-// naive solution: O(2^N)
+// naive solution: O(2^N) => cannot understand
 // const subsetSum = function (set, bound) {
 //   const LENGTH = set.length;
 //   function pickOrNot(idxToCheck, left) {
