@@ -21,6 +21,9 @@
 
 // output = subsetSum([10, 20, 15, 25, 30], 5);
 // console.log(output); // --> 0
+
+
+
 // naive solution: O(2^N)
 // const subsetSum = function (set, bound) {
 //   const LENGTH = set.length;
