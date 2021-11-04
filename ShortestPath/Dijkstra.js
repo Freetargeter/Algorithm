@@ -26,17 +26,17 @@
 // 다익스트라 알고리즘을 직접 생각해내긴 어렵기 때문에 바로 학습하시기 바랍니다.
 // 정점들은 서로 양뱡향으로 연결되어 있습니다(무방향 그래프).
 // 입출력 예시
-// let num = 4;
-// let edges = [
-//   [1, 2, 6],
-//   [1, 3, 2],
-//   [2, 3, 3],
-//   [2, 4, 1],
-//   [3, 4, 5],
-// ];
-// let start = 1;
-// let end = 4;
-// let output = Dijkstra(num, edges, start, end);
+let num = 4;
+let edges = [
+  [1, 2, 6],
+  [1, 3, 2],
+  [2, 3, 3],
+  [2, 4, 1],
+  [3, 4, 5],
+];
+let start = 1;
+let end = 4;
+let output = Dijkstra(num, edges, start, end);
 // console.log(output); // --> 6 (1 - 3 - 2 - 4)
 
 // num = 7;
